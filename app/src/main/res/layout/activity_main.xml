@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="70dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_apa_findVendor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apa itu FindVendor?"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:fontFamily="Rubik"
+        android:layout_marginTop="91dp"
+        android:layout_gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/iv_logo_awal"
+        android:layout_width="226dp"
+        android:layout_height="226dp"
+        android:src="@drawable/LOGO2"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_penjelasan_findVendor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Find vendor aplikasi yang\nmenyediakan daftar vendor baju , jersey ,\njaket dengan range harga dan\nkualitas yang bermacam-macam\nsesuai isi kantong mahasiswa"
+        android:fontFamily="Rubik"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="14sp"
+        />
+
+    <Button
+        android:id="@+id/btn_selanjutnya_awal"
+        android:layout_width="165dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="49dp"
+        android:layout_gravity="center"
+        android:text="Selanjutnya"
+        android:fontFamily="Rubik"
+        android:textColor="#ffffff"
+        android:background="@drawable/border_shape"
+        />
+
+</LinearLayout>
