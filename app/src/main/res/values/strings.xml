@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">FindVendor</string>
+    <string name="home">Home</string>
+    <string name="notifications">Notifications</string>
+    <string name="favorites">Favorites</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

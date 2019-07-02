@@ -25,7 +25,7 @@
         android:id="@+id/iv_logo_login"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:background="@drawable/LOGO2"
+        android:background="@drawable/logo"
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         />
@@ -92,16 +92,18 @@
         android:layout_marginTop="70dp"
         />
 
-    <TextView
-        android:id="@+id/tv_daftar_login"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_daftar_login"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Daftar"
         android:fontFamily="Rubik"
         android:textColor="#343434"
         android:textSize="14sp"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
         />
 
 </LinearLayout>

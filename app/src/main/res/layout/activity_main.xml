@@ -24,7 +24,7 @@
         android:id="@+id/iv_logo_awal"
         android:layout_width="226dp"
         android:layout_height="226dp"
-        android:src="@drawable/LOGO2"
+        android:src="@drawable/logo"
         android:layout_gravity="center"
         android:layout_marginTop="18dp"
         />
@@ -42,7 +42,7 @@
         />
 
     <Button
-        android:id="@+id/btn_selanjutnya_awal"
+        android:id="@+id/btn_selanjutnya"
         android:layout_width="165dp"
         android:layout_height="36dp"
         android:layout_marginTop="49dp"
