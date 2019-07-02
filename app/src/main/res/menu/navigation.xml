@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item
-        android:id="@+id/navigation_home"
+    <item android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item android:id="@+id/timeline"
         android:icon="@drawable/wall_clock"
-        android:title="@string/title_home" />
+        android:title="Timeline" />
 
-    <item
-        android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/wall_clock"
-        android:title="@string/title_dashboard" />
-
-    <item
-        android:id="@+id/navigation_notifications"
+    <item android:id="@+id/notifications"
         android:icon="@drawable/alarm"
-        android:title="@string/title_notifications" />
+        android:title="Notification" />
 
 </menu>
