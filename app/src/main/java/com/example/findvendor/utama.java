@@ -27,7 +27,7 @@ public class utama extends AppCompatActivity {
 
                 Fragment fragment = null;
 
-                //Menantukan halaman Fragment yang akan tampil
+                //Menentukan halaman Fragment yang akan tampil
                 switch (item.getItemId()){
                     case R.id.home:
                         fragment = new home();

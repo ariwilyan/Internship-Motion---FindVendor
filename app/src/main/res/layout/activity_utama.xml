@@ -22,7 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         app:itemIconTint="@drawable/color_selector"
-        app:itemTextColor="@drawable/color_selector"
         android:background="@android:color/white"
         app:menu="@menu/navigation" />
 
