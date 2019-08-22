@@ -15,7 +15,7 @@ public class utama extends AppCompatActivity {
         setContentView(R.layout.activity_utama);
 
         //Menampilkan halaman Fragment yang pertama kali muncul
-        getFragmentPage(new notification());
+        getFragmentPage(new home());
 
         /*Inisialisasi BottomNavigationView beserta listenernya untuk
          *menangkap setiap kejadian saat salah satu menu item diklik

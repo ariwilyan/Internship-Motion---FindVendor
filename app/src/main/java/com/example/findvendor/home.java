@@ -12,15 +12,15 @@ import android.widget.ImageView;
 
 public class home extends Fragment {
 
-    private ImageView btn_vendor_jersey;
+    private ImageView btn_vendor_jaket;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        btn_vendor_jersey = (ImageView) view.findViewById(R.id.vendor_jersey);
-        btn_vendor_jersey.setOnClickListener(new View.OnClickListener() {
+        btn_vendor_jaket = (ImageView) view.findViewById(R.id.vendor_jaket);
+        btn_vendor_jaket.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(), PilihVendorActivity.class));

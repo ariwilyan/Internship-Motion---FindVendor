@@ -6,13 +6,71 @@
     android:layout_height="match_parent"
     tools:context=".notification">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/notif1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Notification Page"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:background="@drawable/shape_rectangle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistem"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No.Order : 123094"
+            android:textSize="13dp"/>
+        <TextView
+            android:id="@+id/isinotif1"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesanan anda sedang diproses oleh vendor"
+            android:textSize="18dp"/>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/isinotif1"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:background="@color/colorBg"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/notif1"
+        android:id="@+id/notif2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistem"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No.Order : 123094"
+            android:textSize="13dp"/>
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesanan anda sudah selesai"
+            android:textSize="18dp"/>
+    </RelativeLayout>
 
 </RelativeLayout>

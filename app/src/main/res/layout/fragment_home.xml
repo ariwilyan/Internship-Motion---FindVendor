@@ -80,119 +80,120 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="60dp">
-    <RelativeLayout
-        android:layout_below="@+id/garis"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/jersey"
-            android:layout_height="200dp"
+        <RelativeLayout
+            android:layout_below="@+id/garis"
             android:layout_width="match_parent"
-            android:elevation="10dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="8dp"
-            app:cardPreventCornerOverlap="true"
-            app:cardUseCompatPadding="true">
+            android:layout_height="match_parent">
 
-            <RelativeLayout
+            <android.support.v7.widget.CardView
+                android:id="@+id/jersey"
+                android:layout_height="200dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:elevation="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
 
-                <ImageView
-                    android:id="@+id/vendor_jersey"
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/bg_jersey"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerCrop"/>
+                    android:layout_height="match_parent">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
-                    android:text="Jersey"
-                    android:textColor="@android:color/white"
-                    android:textStyle="bold"
-                    android:textSize="50dp"/>
+                    <ImageView
+                        android:id="@+id/vendor_jersey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bg_jersey"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"/>
 
-            </RelativeLayout>
-        </android.support.v7.widget.CardView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Jersey"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:textSize="50dp"/>
 
-        <android.support.v7.widget.CardView
-            android:id="@+id/jaket"
-            android:layout_below="@+id/jersey"
-            android:layout_height="200dp"
-            android:layout_width="match_parent"
-            android:elevation="10dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="8dp"
-            app:cardPreventCornerOverlap="true"
-            app:cardUseCompatPadding="true">
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
 
-            <RelativeLayout
+            <android.support.v7.widget.CardView
+                android:id="@+id/jaket"
+                android:layout_below="@+id/jersey"
+                android:layout_height="200dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:elevation="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
 
-                <ImageView
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/bgjaket"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerCrop"/>
+                    android:layout_height="match_parent">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
-                    android:text="Jaket"
-                    android:textColor="@android:color/white"
-                    android:textStyle="bold"
-                    android:textSize="50dp"/>
+                    <ImageView
+                        android:id="@+id/vendor_jaket"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bgjaket"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"/>
 
-            </RelativeLayout>
-        </android.support.v7.widget.CardView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Jaket"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:textSize="50dp"/>
 
-        <android.support.v7.widget.CardView
-            android:id="@+id/kaos"
-            android:layout_below="@+id/jaket"
-            android:layout_height="200dp"
-            android:layout_width="match_parent"
-            android:elevation="10dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="8dp"
-            app:cardPreventCornerOverlap="true"
-            app:cardUseCompatPadding="true">
-            <RelativeLayout
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/kaos"
+                android:layout_below="@+id/jaket"
+                android:layout_height="200dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
+                android:elevation="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/bg_jersey"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerCrop"/>
+                    android:layout_height="match_parent">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
-                    android:text="Kaos"
-                    android:textColor="@android:color/white"
-                    android:textStyle="bold"
-                    android:textSize="50dp"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bg_jersey"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"/>
 
-            </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Kaos"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:textSize="50dp"/>
+
+                </RelativeLayout>
 
 
 
-        </android.support.v7.widget.CardView>
+            </android.support.v7.widget.CardView>
 
 
-    </RelativeLayout>
+        </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

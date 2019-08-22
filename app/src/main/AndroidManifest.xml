@@ -12,15 +12,15 @@
         <activity android:name=".daftar" />
         <activity android:name=".login" />
         <activity android:name=".utama" />
-        <activity android:name=".ProfileVendor">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
         <activity android:name=".PilihVendorActivity"></activity>
+        <activity android:name=".ProfileVendor"/>
     </application>
 
 </manifest>

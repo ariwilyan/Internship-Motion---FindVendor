@@ -6,8 +6,7 @@
         android:icon="@drawable/alarm"
         android:title="Notification" />
 
-    <item
-        android:id="@+id/home"
+    <item android:id="@+id/home"
         android:icon="@drawable/home"
         android:title="Home" />
 
