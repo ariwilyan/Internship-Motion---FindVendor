@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview_menu"
+    app:cardUseCompatPadding="true">
+
+    <ImageView
+        android:id="@+id/iv_foto_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rectangle" />
+        <TextView
+            android:id="@+id/tv_judul_makanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul Kategori"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:fontFamily="Rubik"/>
+
+</android.support.v7.widget.CardView>
